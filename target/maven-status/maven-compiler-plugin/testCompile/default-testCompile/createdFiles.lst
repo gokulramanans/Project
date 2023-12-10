@@ -1,5 +1,0 @@
-testcases\LoginTests.class
-extentlisteners\ExtentListerners.class
-testcases\BaseTests.class
-extentlisteners\ExtentManager.class
-testcases\LoginPage.class
