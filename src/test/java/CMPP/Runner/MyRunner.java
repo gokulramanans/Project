@@ -14,5 +14,9 @@ import io.cucumber.testng.CucumberOptions;
 		//plugin = {"pretty","html:target/cucumber-reports.html"} // specify reporting format and location
 )
 public class MyRunner extends AbstractTestNGCucumberTests{
-
+	@Override
+	@DataProvider(parallel = true)
+	public Object[][] scenarios() {
+		return super.scenarios();
+	}
 }
