@@ -22,6 +22,7 @@
         <maven.surefire.plugin.version>3.2.1</maven.surefire.plugin.version>
         <maven.compiler.source.version>17</maven.compiler.source.version>
         <maven.compiler.target.version>17</maven.compiler.target.version>
+		<java.version>17</java.version>
     </properties>
  
     <dependencies>
